@@ -53,6 +53,12 @@ class ThreadCreator {
      * Runnable接口没有直接提供这些功能，你需要通过Thread对象来获取。
      */
 
+    /**
+     * 自己的理解：
+     *
+     * Thread 是一个人，这个人可以做某件事，Runnable 是一件事，交给了 Thread 就能被做
+     */
+
     // ########################################
 
     fun build3() {
